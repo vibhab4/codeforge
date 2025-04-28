@@ -5,7 +5,6 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
-import LeetCodeSimulator from './pages/LeetCodeSimulator';
 import Login from "./pages/Login";
 import Challenge from "./pages/Challenge";
 import Dashboard from "./pages/Dashboard";
