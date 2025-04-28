@@ -5,7 +5,7 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    setupFiles: './src/setupTests.ts',  // <<< very important
+    setupFiles: './src/setupTests.ts',  
   },
   resolve: {
     alias: {
