@@ -120,12 +120,6 @@ const ChallengePage: React.FC = () => {
     }
 
     setOutput(result);
-    // if (allPassed && todayChallenge.testCases.length > 0) {
-    //   setShowConfetti(true);
-    //   setTimeout(() => setShowConfetti(false), 10000);
-    // }
-
-    setOutput(result);
 
     if (todayChallenge && user) {
       if (allPassed && todayChallenge.testCases.length > 0) {
@@ -187,18 +181,6 @@ const ChallengePage: React.FC = () => {
       <Navbar />
 
       <div className="pt-24 p-6 max-w-5xl mx-auto">
-        {/* Hero Section */}
-        {/* <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold">✨ Today's Challenge</h1>
-          <h2 className="text-2xl mt-4">{todayChallenge.title}</h2>
-          <div className="mt-2 flex justify-center items-center gap-4">
-
-            <Badge>{todayChallenge.difficulty}</Badge>
-            <span className="text-gray-600">{getTimeRemaining()}</span>
-          </div>
-          <p className="mt-4 text-gray-700">{todayChallenge.description}</p>
-        </div> */}
-
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold flex items-center justify-center gap-4">
             ✨ Today's Challenge ✨

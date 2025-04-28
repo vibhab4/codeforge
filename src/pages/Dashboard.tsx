@@ -31,24 +31,6 @@ const Dashboard: React.FC = () => {
     }
   }, [isAuthenticated, navigate]);
 
-  // useEffect(() => {
-  //   const fetchStats = async () => {
-  //     if (user) {
-  //       const userDoc = await getDoc(doc(db, 'users', user.uid));
-  //       if (userDoc.exists()) {
-  //         const data = userDoc.data();
-  //         setStats({
-  //           challengesSolved: data.challengesSolved || 0,
-  //           streak: data.streak || 0,
-  //           total: data.progress ? data.progress.length : 0,
-  //         });
-  //       }
-  //     }
-  //     setLoading(false);
-  //   };
-  //   fetchStats();
-  // }, [user]);
-
   useEffect(() => {
     if (!user) return;
 
@@ -104,21 +86,6 @@ const Dashboard: React.FC = () => {
                 </p>
               </CardContent>
             </Card>
-
-            {/* <Card>
-              <CardHeader className="pb-2 flex flex-row items-center justify-between space-y-0">
-                <CardTitle className="text-sm font-medium">Current Streak</CardTitle>
-                <Calendar className="h-4 w-4 text-muted-foreground" />
-              </CardHeader>
-              <CardContent>
-                <div className="text-2xl font-bold">{stats.streak} days</div>
-                <p className="text-xs text-muted-foreground">
-                  {stats.streak > 0
-                    ? 'Keep the momentum going!'
-                    : 'Start your streak today'}
-                </p>
-              </CardContent>
-            </Card> */}
 
             <Card>
               <CardHeader className="pb-2 flex flex-row items-center justify-between space-y-0">
