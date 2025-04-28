@@ -19,7 +19,7 @@ Whether you're preparing for coding interviews or simply building daily discipli
 ## Tech Stack
 
 - Frontend: **React + Vite + TypeScript**
-- Styling: **Tailwind CSS**
+- Styling: **Tailwind CSS + ShadCN UI**
 - Backend: **Firebase Auth + Firestore**
 - Testing: **Vitest + React Testing Library**
 - Deployment: **Render (Docker Web Service)**
