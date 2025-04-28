@@ -2,7 +2,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
 import { MemoryRouter } from 'react-router-dom';
 import { AuthProvider } from '@/utils/authContext'; 
-import Login from '/Users/vibhabhavikatti/Documents/CloudComputing/project/cloud-code-daily/src/pages/Login.tsx'; 
+import Login from '../pages/Login';
 
 describe('Login Page', () => {
   it('renders email and password fields', () => {
