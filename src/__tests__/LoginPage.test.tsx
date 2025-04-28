@@ -8,7 +8,7 @@ describe('Login Page', () => {
   it('renders email and password fields', () => {
     render(
       <MemoryRouter>
-        <AuthProvider>    {/* ✅ Wrap inside AuthProvider */}
+        <AuthProvider>    {/* Wrap inside AuthProvider */}
           <Login />
         </AuthProvider>
       </MemoryRouter>
@@ -21,7 +21,7 @@ describe('Login Page', () => {
   it('shows error if form is submitted empty', async () => {
     render(
       <MemoryRouter>
-        <AuthProvider>    {/* ✅ Wrap inside AuthProvider */}
+        <AuthProvider>    {/* Wrap inside AuthProvider */}
           <Login />
         </AuthProvider>
       </MemoryRouter>
