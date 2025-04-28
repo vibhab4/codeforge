@@ -21,8 +21,11 @@ Whether you're preparing for coding interviews or simply building daily discipli
 - Frontend: **React + Vite + TypeScript**
 - Styling: **Tailwind CSS + ShadCN UI**
 - Backend: **Firebase Auth + Firestore**
-- Testing: **Vitest + React Testing Library**
-- Deployment: **Render (Docker Web Service)**
+- Deployment: **Docker + Nginx + Render Cloud Hosting**
+- Testing:
+  - **Vitest** — For unit testing React components in isolation.
+  - **React Testing Library** — For testing real user interactions like typing, clicking buttons, and form submission.
+  - **Cypress** — For full end-to-end (E2E) testing to simulate actual user flows like login, navigating pages, and solving challenges.
 - CI/CD: **GitHub Actions**
 
 ## Local Development Setup
