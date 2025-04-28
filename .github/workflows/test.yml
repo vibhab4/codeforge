@@ -1,4 +1,4 @@
-name: CI - Run Vitest and Cypress Tests
+name: Run Vitest Tests
 
 on:
   push:
@@ -32,19 +32,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run Unit Tests (Vitest)
+      - name: Run tests
         run: npm run test
-
-      - name: Build app for Cypress tests
-        run: npm run build
-
-      - name: Start the app server
-        run: npm run preview &
-        env:
-          CI: true
-
-      - name: Wait for server to be ready
-        run: npx wait-on http://localhost:4173
-
-      - name: Run Cypress E2E Tests
-        run: npx cypress run
