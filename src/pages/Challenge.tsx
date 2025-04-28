@@ -201,7 +201,7 @@ const ChallengePage: React.FC = () => {
 
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold flex items-center justify-center gap-4">
-            ✨ Today's Challenge
+            ✨ Today's Challenge ✨
           </h1>
 
           <div className="flex items-center justify-center gap-2 mt-4">
