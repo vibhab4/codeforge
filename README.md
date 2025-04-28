@@ -69,4 +69,4 @@ VITE_FIREBASE_APP_ID=your-app-id
 
 Copyright (c) 2024
 
-This project is licensed under the MIT License. 
+This project is licensed under the MIT License.
