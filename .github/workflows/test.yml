@@ -44,7 +44,7 @@ jobs:
           CI: true
 
       - name: Wait for server to be ready
-        run: npx wait-on http://localhost:8080
+        run: npx wait-on http://localhost:4173
 
       - name: Run Cypress E2E Tests
         run: npx cypress run
