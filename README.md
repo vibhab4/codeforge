@@ -1,8 +1,9 @@
 # CodeForge 
 
-Welcome to **CodeForge** — a daily coding challenge app built with Vite, React, TypeScript, TailwindCSS, Firebase, and Docker.
+Welcome to **CodeForge** — a daily coding challenge app built to help developers practice, improve, and maintain their coding skills consistently.
+Built with **Vite**, **React**, **TypeScript**, **TailwindCSS**, and **Firebase**, CodeForge allows users to authenticate securely, receive fresh challenges daily, and track their progress over time. The application is fully containerized with **Docker** and deployed using **Render** with a complete **CI/CD pipeline** powered by **GitHub Actions** and **Vitest** for automatic testing.
+Whether you're preparing for coding interviews or simply building daily discipline, CodeForge gives you an encouraging environment to level up.
 
----
 
 ## Features
 
@@ -15,8 +16,6 @@ Welcome to **CodeForge** — a daily coding challenge app built with Vite, React
 - Full CI/CD setup with GitHub Actions
 - Automatic testing using Vitest and React Testing Library
 
----
-
 ## Tech Stack
 
 - Frontend: **React + Vite + TypeScript**
@@ -26,11 +25,14 @@ Welcome to **CodeForge** — a daily coding challenge app built with Vite, React
 - Deployment: **Render (Docker Web Service)**
 - CI/CD: **GitHub Actions**
 
----
-
 ## Local Development Setup
 
 ```bash
+# Clone the repository
+
+git clone https://github.com/vibhab4/codeforge.git
+cd codeforge
+
 # Install dependencies
 npm install
 
@@ -40,8 +42,6 @@ npm run dev
 # Run tests
 npm run test
 ```
-
----
 
 ## Firebase Credentials
 
@@ -58,11 +58,9 @@ VITE_FIREBASE_APP_ID=your-app-id
 
 ## Deployment Notes
 
-Local npm run build generates a /dist folder.
-
-Dockerfile serves pre-built dist/ using Nginx.
-
-GitHub Actions automatically runs tests on every push.
+- Local npm run build generates a /dist folder.
+- Dockerfile serves pre-built dist/ using Nginx.
+- GitHub Actions automatically runs tests on every push.
 
 ## MIT License
 
