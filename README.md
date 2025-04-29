@@ -67,6 +67,6 @@ VITE_FIREBASE_APP_ID=your-app-id
 
 ## License
 
-Copyright (c) 2024
+Copyright (c) 2024 Vibha
 
 This project is licensed under the MIT License. 
